@@ -134,7 +134,7 @@ const Main = () => {
                 </div>
                 <h3 className="text-black p-3">Follow me on Behance</h3>
             </section>
-            <img className="sm:w-[600px] sm:h-[500px]" src="Rectangle 39.png" alt="" />
+            <img className="bg-cover sm:w-[600px] sm:h-[500px]" src="Rectangle 39.png" alt="" />
         </section>
         <section>
             <div className="p-3 grid gap-3 sm:w-[620px]">
