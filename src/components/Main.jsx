@@ -3,13 +3,13 @@ import InfoForm from "./InfoForm"
 
 const Main = () => {
   return (
-    <main className="bg-black text-white grid gap-10 ">
+    <main className="bg-black text-white grid gap-10">
         <div className="text-lg grid gap-2 p-4 sm:relative sm:z-10">
             <h4 className="text-gray-600">WORK EXPERIENCE</h4>
             <h2 className="text-[30px] font-semibold">Companies I have worked for in the past.</h2>
         </div>
 
-        <section className="bg-black text-white grid gap-[50px] text-[18px] p-4">
+        <section className="bg-black text-white grid gap-[50px] text-[18px] p-4 sm:flex">
             <div className="grid gap-2">
                 <img src="/01.png" alt="" />
                 <h3><b className="text-green-500">Google</b>, Interaction Designer</h3>
