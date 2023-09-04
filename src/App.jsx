@@ -1,6 +1,7 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Home from './components/Home'
 import Main from './components/Main'
 import Navbar from './components/Navbar'
 
@@ -11,6 +12,7 @@ function App() {
     <section className='bg-black overflow-hidden'>
       <Navbar/>
       <Header/>
+      <Home/>
       <Main/>
       <Footer/>
     </section>

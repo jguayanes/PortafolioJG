@@ -1,8 +1,14 @@
 
 
 const InfoForm = () => {
+
+
+    const handleGetStart = (e) =>{
+        e.preventDefault
+    }
+
   return (
-    <form>
+    <form id="" onClick={handleGetStart} className="">
         <div className="text-white text-2xl grid p-3 gap-3">
             <label htmlFor="Name">Name</label>
             <input className="bg-[#181823] w-[280px] h-[35px]" type="text" id="Name"/>
