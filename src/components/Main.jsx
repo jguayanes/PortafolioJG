@@ -40,22 +40,12 @@ const Main = () => {
               <li>SCRUM / Agil</li>
             </ul>
           </div>
-          <div className="grid gap-2">
-            <img className="w-[50px]" src="/Vector.svg" alt="" />
-            <h2 className="font-bold text-2xl">UX/UI</h2>
-            <ul className="text-gray-400">
-              <li>wireframing /UML</li>
-              <li>Adobe Suite</li>
-              <li>Elementor Expert</li>
-            </ul>
-          </div>
         </section>
       </section>
       <section id="projects" className="grid gap-9 p-4 justify-center">
         <div>
           <h2 className="text-[21px] text-gray-400">MY PROJECTS</h2>
           <p className="font-bold text-[30px]">
-            Work that I've done for the past 8 years{" "}
           </p>
         </div>
         <section className="grid gap-5 sm:grid sm:grid-cols-2 sm:gap-6">
