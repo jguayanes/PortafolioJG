@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <section className='bg-black overflow-hidden'>
+    <section className='overflow-hidden bg-[#183d3d]'>
       <Navbar/>
       <Header/>
       <Home/>
