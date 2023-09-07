@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <article className="text-white grid justify-center p-4">
+    <article className="text-white grid p-4 justify-center ">
         <div className="w-[140px]">
             <ul className="flex gap-2">
                 <li><a target="_blank" href="https://www.instagram.com/juliang_0302/"><img src="/insta.png" alt="" /></a></li>

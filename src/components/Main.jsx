@@ -6,7 +6,7 @@ const Main = () => {
       <section id="skillset" className="grid p-3 sm:flex sm:gap-9 sm:p-4 sm:justify-around">
         <div className="grid gap-3 w-[368px]">
           <h2 className="font-bold text-[30px]">Skillset</h2>
-          <p className="">
+          <p className="sm:text-2xl">
             With skills in over 4 different fields of design, I am the perfect
             person to hire when it comes to a full fledged project. Whatever
             your needs are, I can pretty much take on any challenge.
@@ -49,25 +49,25 @@ const Main = () => {
           </p>
         </div>
         <section className="grid gap-5 sm:grid sm:grid-cols-2 sm:gap-6">
-          <section className="bg-[#181823] grid h-[400px] sm:w-[530px] sm:h-[530px] ">
+          <section className="bg-[#181823] grid h-[400px] sm:w-[530px] sm:h-[530px] rounded-md ">
             <img
-              className="sm:w-[530px] hover:scale-125"
+              className="sm:w-[530px] hover:scale-90"
               src="/car1.jpg"
               alt=""
             />
-            <div className="grid gap-3 p-3">
+            <div className="flex flex-col p-3 gap-3">
               <h2 className="text-lg font-bold">E-Commerce Website Design</h2>
               <p className="text-lg">
                 I Worked whit guys at CBRE to redesign their entire website and
                 mobile app fro both Android and iOS. This project lasted for 4
-                months and was a very challenging one.{" "}
+                months and was a very challenging one.
               </p>
             </div>
           </section>
 
-          <section className="bg-[#181823] h-[400px] sm:w-[530px] sm:h-[530px]">
+          <section className="bg-[#181823] h-[400px] sm:w-[530px] sm:h-[530px] rounded-md">
             <img
-              className="sm:w-[530px] hover:scale-125"
+              className="sm:w-[530px] hover:scale-90"
               src="rick1.jpg"
               alt=""
             />
@@ -81,13 +81,13 @@ const Main = () => {
             </div>
           </section>
 
-          <section className="bg-[#181823] h-[400px] sm:w-[530px] sm:h-[530px]">
+          <section className="bg-[#181823] h-[400px] sm:w-[530px] sm:h-[530px] rounded-md">
             <img
-              className="sm:w-[530px] hover:scale-125"
+              className="sm:w-[530px] hover:scale-90"
               src="user.jpg"
               alt=""
             />
-            <div className="grid gap-3 p-3">
+            <div className="flex flex-col p-3 gap-3">
               <h2 className="font-bold text-lg">User Create with Api App</h2>
               <p className="text-lg">
                 I worked with the guys at CBRE to redesign their entire website
@@ -96,9 +96,9 @@ const Main = () => {
               </p>
             </div>
           </section>
-          <section className="bg-[#181823] h-[400px] sm:w-[530px] sm:h-[530px]">
+          <section className="bg-[#181823] h-[400px] sm:w-[530px] sm:h-[530px] rounded-md">
             <img
-              className="sm:w-[530px] hover:scale-125"
+              className="sm:w-[530px] hover:scale-90"
               src="wheater.jpg"
               alt=""
             />
@@ -113,7 +113,7 @@ const Main = () => {
           </section>
         </section>
       </section>
-      <section className="sm:flex gap-5 justify-center">
+      <section className="sm:flex gap-5 justify-center items-center">
         <div id="contact" className="p-3 sm:w-[550px]">
           <h2 className="font-bold text-[30px]">Let's talk business</h2>
           <p className="text-gray-400 text-[19px]">
