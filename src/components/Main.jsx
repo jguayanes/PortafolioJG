@@ -6,7 +6,7 @@ const Main = () => {
       <section id="skillset" className="grid p-3 sm:flex sm:gap-9 sm:p-4 sm:justify-around gap-2">
         <div className="grid gap-3 w-[368px]">
           <h2 className="font-bold text-[30px]">Skillset</h2>
-          <p className="sm:text-2xl">
+          <p className="sm:text-2xl text-justify">
             With skills in over 4 different fields of design, I am the perfect
             person to hire when it comes to a full fledged project. Whatever
             your needs are, I can pretty much take on any challenge.
@@ -42,45 +42,45 @@ const Main = () => {
           </div>
         </section>
       </section>
-      <section id="projects" className="grid gap-2 p-4 sm:h-[800px]">
+      <section id="projects" className="grid gap-2 p-4 sm:h-[800px] ">
         <div>
           <h2 className="text-[21px] text-gray-400 font-bold ">MY PROJECTS</h2>
           <p className="font-bold text-[30px]">
           </p>
         </div>
         <section className="grid gap-5 sm:relative sm:bottom-[350px]">
-          <section className="cursor-pointer hover:scale-110 sm:absolute sm:w-[600px] sm:top-0 sm:hover:z-10">
+          <section className="cursor-pointer hover:scale-105 sm:absolute sm:w-[600px] sm:top-0 sm:hover:z-10 ">
             <a target="_blank" href="https://g25-cart-final.netlify.app/">   <img
-              className="rounded-sm"
+              className="rounded-sm shadow-2xl"
               src="/car1.jpg"
               alt=""
             /></a>
           </section>
 
-          <section className="cursor-pointer hover:scale-110 sm:absolute sm:w-[600px] sm:top-[30%] sm:left-[15%] sm:hover:z-10">
+          <section className="cursor-pointer hover:scale-105 sm:absolute sm:w-[600px] sm:top-[30%] sm:left-[15%] sm:hover:z-10">
             <a target="_blank" href="https://illustrious-jalebi-996d99.netlify.app/"><img
-              className="rounded-sm"
+              className="rounded-sm shadow-2xl"
               src="rick1.jpg"
               alt=""
             /></a>
           </section>
 
-          <section className="cursor-pointer hover:scale-110 sm:absolute sm:w-[600px] sm:top-[60%] sm:left-[30%] sm:hover:z-10">
+          <section className="cursor-pointer hover:scale-105 sm:absolute sm:w-[600px] sm:top-[60%] sm:left-[30%] sm:hover:z-10">
             <a target="_blank" href="https://create-your-user.netlify.app/">          <img
-              className="rounded-sm"
+              className="rounded-sm shadow-2xl"
               src="user.jpg"
               alt=""
             /></a>
           </section>
-          <section className="cursor-pointer hover:scale-110 sm:absolute sm:w-[600px] sm:top-[90%] sm:left-[45%] sm:hover:z-10">
+          <section className="cursor-pointer hover:scale-105 sm:absolute sm:w-[600px] sm:top-[90%] sm:left-[45%] sm:hover:z-10">
             <a target="_blank" href="https://searthechwheater.netlify.app/">            <img
-              className="rounded-sm"
+              className="rounded-sm shadow-2xl"
               src="wheater.jpg"
               alt=""
             /></a>
           </section>
-          <section className="cursor-pointer hover:scale-110 sm:absolute sm:w-[600px] sm:top-[120%] left-[55%] ">
-            <a target="_blank" href="https://searchyourpokemon.netlify.app/"><img className="rounded-sm" src="/pokedex.jpg" alt="" /></a>
+          <section className="cursor-pointer hover:scale-105 sm:absolute sm:w-[600px] sm:top-[120%] left-[55%] ">
+            <a target="_blank" href="https://searchyourpokemon.netlify.app/"><img className="rounded-sm shadow-2xl" src="/pokedex.jpg" alt="" /></a>
           </section>
         </section>
       </section>
