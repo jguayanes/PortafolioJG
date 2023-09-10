@@ -24,15 +24,15 @@ const InfoForm = () => {
 
   return (
     <main className="text-black font-semibold text-lg p-3">
-      <form className="flex flex-col gap-6 w-[250px]" onSubmit={sendEmail}>
+      <form className="flex flex-col gap-6 w-[250px] " autoComplete="off" onSubmit={sendEmail}>
         <label>Name</label>
-        <input className="" type="text" name="user_name" />
+        <input className="rounded-md" type="text" name="user_name" />
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" className="rounded-md" name="user_email" />
         <label>Message</label>
-        <textarea name="message" />
+        <textarea name="message" className="rounded-md"/>
         <input
-          className="border-[2px] hover:border-blue-400 cursor-pointer"
+          className="border-[2px] hover:border-blue-400 hover:bg-sky-900 cursor-pointer"
           type="submit"
           value="Send"
         />
