@@ -92,7 +92,7 @@ const Main = () => {
             to work with me.
           </p>
         </div>
-        <InfoForm />
+        <InfoForm/>
       </section>
     </main>
   );
