@@ -1,34 +1,36 @@
-import { useState } from "react"
+
+import emailjs from '@emailjs/browser';
+
 
 
 const InfoForm = () => {
-    const [infoForm, setInfoForm] = useState([])
+    
 
-    const handleGetStart = (e) =>{
-        e.preventDefault()
-        
-    }
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_l86zcyd', 'template_9lxcnh1', e.target, 'aQZFGrAuMFHxtFBeb')
+      .then((result) => {
+          console.log(result.text)
+          e.target.reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
 
   return (
-    <form id="" onClick={handleGetStart}  autoComplete="off" className="">
-        <div className="dark:text-white text-2xl grid p-3 gap-3">
-            <label className="font-semibold" htmlFor="Name">Name</label>
-            <input className="bg-[#484852] rounded-md w-[280px] h-[35px]" type="text" id="Name" required/>
-        </div>
-        <div className="dark:text-white text-2xl grid p-3 gap-3">
-            <label className="font-semibold" htmlFor="Email">Email</label>
-            <input className="bg-[#484852]  rounded-md w-[280px] h-[35px]" type="text" id="Email" required/>
-        </div>
-        <div className="dark:text-white text-2xl grid p-3 gap-3">
-            <label className="font-semibold" htmlFor="Message">Message</label>
-            <input className="bg-[#484852] rounded-md w-[280px] h-[90px]" type="text" id="Message" required/>
-        </div>
-        <div className="grid justify-center p-3">
-            <button className="bg-slate-800 rounded-md w-[250px] h-[50px] text-white font-bold">
-            LET'S GET STARTED
-            </button>
-        </div>
-    </form>
+    <main className='text-black font-semibold text-lg p-3'>
+        <form className='flex flex-col gap-6 w-[250px]' onSubmit={sendEmail}>
+            <label>Name</label>
+            <input className='' type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input className='border-[2px] hover:border-blue-400 cursor-pointer' type="submit" value="Send" />
+        </form>
+    </main>
   )
 }
 
