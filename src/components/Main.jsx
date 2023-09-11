@@ -42,15 +42,15 @@ const Main = () => {
           </div>
         </section>
       </section>
-      <section id="projects" className="grid p-2 gap-3 sm:h-[900px] justify-center">
+      <section id="projects" className="grid p-2 gap-4 sm:h-[900px] justify-center">
         <div>
           <h2 className="text-[21px] text-gray-400 font-bold ">MY PROJECTS</h2>
           <p className="font-bold text-[30px]">
           </p>
         </div>
-        <section className="grid gap-5 sm:grid-cols-2 sm:justify-center sm:items-center px-3">
+        <section className="grid gap-5 sm:grid-cols-2 sm:justify-center sm:items-center  px-3">
           <section className="grid gap-6">
-            <div className="w-[350px] sm:w-[550px]">
+            <div className="w-[350px] sm:w-[500px]">
               <img
               className="rounded-sm shadow-2xl"
               src="/car1.jpg"
@@ -64,7 +64,7 @@ const Main = () => {
           </section>
 
           <section className="grid gap-6">
-            <div className="w-[350px] sm:w-[550px] ">
+            <div className="w-[350px] sm:w-[500px] ">
               <img
               className="rounded-sm shadow-2xl"
               src="rick1.jpg"
@@ -78,7 +78,7 @@ const Main = () => {
           </section>
 
           <section className="grid gap-6">
-            <div className="w-[350px] sm:w-[550px]">
+            <div className="w-[350px] sm:w-[500px]">
               <img
               className="rounded-sm shadow-2xl"
               src="user.jpg"
@@ -91,7 +91,7 @@ const Main = () => {
             </div>
           </section>
           <section className="grid gap-6">
-            <div className="w-[350px] sm:w-[550px]">
+            <div className="w-[350px] sm:w-[500px]">
               <img
               className="rounded-sm shadow-2xl"
               src="wheater.jpg"
@@ -104,7 +104,7 @@ const Main = () => {
             </div>
           </section>
           <section className="grid gap-6">
-            <div className="w-[350px] sm:w-[550px]">
+            <div className="w-[350px] sm:w-[500px]">
               <img className="rounded-sm shadow-2xl" src="/pokedex.jpg" alt="" />
             </div>
             <div className="flex gap-8 justify-center text-slate-900 font-bold">
