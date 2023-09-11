@@ -42,7 +42,7 @@ const Main = () => {
           </div>
         </section>
       </section>
-      <section id="projects" className="grid p-2 gap-3 sm:h-[900px] sm:justify-center">
+      <section id="projects" className="grid p-2 gap-3 sm:h-[900px] justify-center">
         <div>
           <h2 className="text-[21px] text-gray-400 font-bold ">MY PROJECTS</h2>
           <p className="font-bold text-[30px]">
