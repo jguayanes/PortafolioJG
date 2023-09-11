@@ -42,72 +42,72 @@ const Main = () => {
           </div>
         </section>
       </section>
-      <section id="projects" className="grid gap-2 p-4 sm:h-[900px] justify-center  ">
+      <section id="projects" className="grid p-2 gap-3 sm:h-[900px] sm:justify-center">
         <div>
           <h2 className="text-[21px] text-gray-400 font-bold ">MY PROJECTS</h2>
           <p className="font-bold text-[30px]">
           </p>
         </div>
-        <section className="grid gap-5 sm:grid-cols-2 sm:justify-center sm:items-center">
+        <section className="grid gap-5 sm:grid-cols-2 sm:justify-center sm:items-center px-3">
           <section className="grid gap-6">
-            <div className="w-[550px]">
+            <div className="w-[300px] sm:w-[550px]">
               <img
               className="rounded-sm shadow-2xl"
               src="/car1.jpg"
               alt=""
               />
             </div>
-            <div className="flex gap-5 justify-center">
+            <div className="flex gap-5 relative left-16 sm:justify-center">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="https://g25-cart-final.netlify.app/">Deploy</a>
             </div>
           </section>
 
           <section className="grid gap-6">
-            <div className="w-[550px]">
+            <div className="w-[300px] sm:w-[550px] ">
               <img
               className="rounded-sm shadow-2xl"
               src="rick1.jpg"
               alt=""
               />
             </div>
-            <div className="flex gap-8 justify-center ">
+            <div className="flex gap-8 relative left-16 sm:justify-center ">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="https://github.com/jguayanes/EntregableReact3">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="https://illustrious-jalebi-996d99.netlify.app/">Deploy</a>
             </div>
           </section>
 
           <section className="grid gap-6">
-            <div className="w-[550px]">
+            <div className="w-[300px] sm:w-[550px]">
               <img
               className="rounded-sm shadow-2xl"
               src="user.jpg"
               alt=""
               />
             </div>
-            <div className="flex gap-8 justify-center ">
+            <div className="flex gap-8 relative left-16 sm:justify-center ">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="https://github.com/jguayanes/EntregableReact4">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm scale-110" target="_blank" href="https://create-your-user.netlify.app/">Deploy</a>
             </div>
           </section>
           <section className="grid gap-6">
-            <div className="w-[550px]">
+            <div className="w-[300px] sm:w-[550px]">
               <img
               className="rounded-sm shadow-2xl"
               src="wheater.jpg"
               alt=""
               />
             </div>
-            <div className="flex gap-8 justify-center ">
+            <div className="flex gap-8 relative left-16 sm:justify-center">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="https://github.com/jguayanes/EntregableReact2">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="https://searthechwheater.netlify.app/">Deploy</a>
             </div>
           </section>
           <section className="grid gap-6">
-            <div className="w-[550px]">
+            <div className="w-[300px] sm:w-[550px]">
               <img className="rounded-sm shadow-2xl" src="/pokedex.jpg" alt="" />
             </div>
-            <div className="flex gap-8 justify-center ">
+            <div className="flex gap-8 relative left-16 sm:justify-center">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="https://github.com/jguayanes/Entregable5-pokedex">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110" target="_blank" href="https://searchyourpokemon.netlify.app/">Deploy</a>
             </div>
@@ -117,7 +117,7 @@ const Main = () => {
       <section className="sm:flex gap-5 justify-center items-center sm:h-[350px]">
         <div id="contact" className="p-3 sm:w-[550px]">
           <h2 className="font-bold text-[30px]">Let's talk business</h2>
-          <p className="text-gray-900 dark:text-gray-400 text-[19px]">
+          <p className="text-gray-900 dark:text-gray-400 text-[19px] w-[300px]">
             Now that you know a lot about me, let me know if you are interested
             to work with me.
           </p>
