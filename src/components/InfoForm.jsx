@@ -23,7 +23,7 @@ const InfoForm = () => {
 
 
   return (
-    <main className="text-black font-semibold flex text-lg p-3 relative left-8">
+    <main className="text-black font-semibold flex text-lg p-3 justify-center">
       <form className="flex flex-col gap-6 w-[250px] " autoComplete="off" onSubmit={sendEmail}>
         <label>Name</label>
         <input className="rounded-md" type="text" name="user_name" />
