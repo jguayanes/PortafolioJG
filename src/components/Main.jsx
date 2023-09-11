@@ -57,7 +57,7 @@ const Main = () => {
               alt=""
               />
             </div>
-            <div className="flex gap-5 relative left-16 sm:justify-center font-bold text-slate-800">
+            <div className="flex gap-5 justify-center font-bold text-slate-800">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="https://g25-cart-final.netlify.app/">Deploy</a>
             </div>
@@ -71,7 +71,7 @@ const Main = () => {
               alt=""
               />
             </div>
-            <div className="flex gap-8 relative left-16 sm:justify-center text-slate-900 font-bold ">
+            <div className="flex gap-8 justify-center text-slate-900 font-bold ">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="https://github.com/jguayanes/EntregableReact3">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="https://illustrious-jalebi-996d99.netlify.app/">Deploy</a>
             </div>
@@ -85,7 +85,7 @@ const Main = () => {
               alt=""
               />
             </div>
-            <div className="flex gap-8 relative left-16 sm:justify-center text-slate-900 font-bold">
+            <div className="flex gap-8 justify-center text-slate-900 font-bold">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="https://github.com/jguayanes/EntregableReact4">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm scale-110 grid items-center" target="_blank" href="https://create-your-user.netlify.app/">Deploy</a>
             </div>
@@ -98,7 +98,7 @@ const Main = () => {
               alt=""
               />
             </div>
-            <div className="flex gap-8 relative left-16 sm:justify-center text-slate-900 font-bold">
+            <div className="flex gap-8 justify-center text-slate-900 font-bold">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="https://github.com/jguayanes/EntregableReact2">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="https://searthechwheater.netlify.app/">Deploy</a>
             </div>
@@ -107,7 +107,7 @@ const Main = () => {
             <div className="w-[350px] sm:w-[550px]">
               <img className="rounded-sm shadow-2xl" src="/pokedex.jpg" alt="" />
             </div>
-            <div className="flex gap-8 relative left-16 sm:justify-center text-slate-900 font-bold">
+            <div className="flex gap-8 justify-center text-slate-900 font-bold">
               <a className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="https://github.com/jguayanes/Entregable5-pokedex">GitHub</a>
               <a className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center" target="_blank" href="https://searchyourpokemon.netlify.app/">Deploy</a>
             </div>
