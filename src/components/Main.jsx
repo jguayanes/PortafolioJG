@@ -225,7 +225,7 @@ const Main = () => {
       </section>
       <section className="sm:flex gap-5 justify-center items-center sm:h-[450px]">
         <div id="contact" className="p-3 sm:w-[550px]">
-          <h2 className="font-bold text-[30px]">
+          <h2 className="font-bold dark:text-white text-[30px]">
             <FormattedMessage
               id="app.form"
               defaultMessage="Let's talk business"

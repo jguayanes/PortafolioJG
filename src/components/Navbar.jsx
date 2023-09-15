@@ -42,7 +42,7 @@ const Navbar = ({ handleChangeLangueage }) => {
             onClick={handleChangeLangueage}
             className="w-[50px] grid items-center justify-center border p-1 rounded-md"
           >
-            <img className="w-6" src="/traducir.png" alt="" />
+            <img className="w-6" src="/trad.png" alt="" />
           </button>
           <button
             onClick={handleClickOpenMenu}

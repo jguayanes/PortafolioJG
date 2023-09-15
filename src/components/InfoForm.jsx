@@ -25,7 +25,7 @@ const InfoForm = () => {
   return (
     <main className=" text-black font-semibold flex text-lg p-3 justify-center relative z-10">
       <form
-        className="flex flex-col gap-6 w-[250px] "
+        className="flex flex-col gap-6 w-[250px] dark:text-gray-400"
         autoComplete="off"
         onSubmit={sendEmail}
       >
