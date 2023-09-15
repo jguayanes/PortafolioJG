@@ -1,0 +1,20 @@
+{
+    "app.home": "Home",
+    "app.aboutme": "About me",
+    "app.skillset": "Skillset",
+    "app.projects": "Projects",
+    "app.contact": "Contact",
+    "app.header": "I'm Julian Guayanés. A full stack developer",
+    "app.p": "I'm probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I'm your guy.",
+    "app.pskill": "With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.",
+    "app.frameworks": "Frameworks",
+    "app.lenguages": "Lenguages",
+    "app.source": "Source Control",
+    "app.deploy": "Deploy",
+    "app.form": "Let's talk business",
+    "app.form2": "Now that you know about me, let me know if you are interested to work with me.",
+    "app.name": "Name",
+    "app.email": "Email",
+    "app.message": "Menssage",
+    "app.send": "Send"
+}

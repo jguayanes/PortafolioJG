@@ -1,0 +1,21 @@
+{
+    "app.home": "Casa",
+    "app.aboutme": "Sobre mi",
+    "app.skillset": "Habilidades",
+    "app.projects": "Proyectos",
+    "app.contact": "Contacto",
+    "app.header": "Soy Julián Guayanés. Un desarrollador completo",
+    "app.p": "Probablemente soy el diseñador más apasionado con el que jamás trabajarás. Si tienes un gran proyecto que necesita algunas habilidades increíbles, soy tu persona.",
+    "app.pskill": "Con habilidades en más de 3 campos diferentes del diseño, soy la persona perfecta para contratar cuando se trata de un proyecto completo. Cualesquiera que sean sus necesidades, puedo afrontar prácticamente cualquier desafío.",
+    "app.frameworks": "Estructuras",
+    "app.lenguages": "Lenguajes",
+    "app.source": "Fuente de control",
+    "app.deploy": "Desplegar",
+    "app.form": "Hablemos de negocios",
+    "app.form2": "Ahora que sabes sobre mí, déjame saber si estás interesado en trabajar conmigo.",
+    "app.name": "Nombre",
+    "app.email": "Correo",
+    "app.message": "Mensaje",
+    "app.send": "Enviar"
+
+}
