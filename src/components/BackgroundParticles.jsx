@@ -1,7 +1,7 @@
 import { useCallback } from "react";
-import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import particlesconfig from "./confing/particlesjs-confing";
+import Particles from "react-tsparticles";
 
 const BackgroundParticles = () => {
   const particlesInit = useCallback((engine) => {
