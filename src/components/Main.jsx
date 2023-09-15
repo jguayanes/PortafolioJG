@@ -95,14 +95,14 @@ const Main = () => {
             </div>
             <div className="flex gap-5 justify-center font-bold text-slate-800 relative z-10">
               <a
-                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-sm hover:scale-110 grid items-center"
+                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-md hover:scale-110 grid items-center"
                 target="_blank"
                 href=""
               >
                 GitHub
               </a>
               <a
-                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center"
+                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-md dark:hover:text-white hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://g25-cart-final.netlify.app/"
               >
@@ -117,14 +117,14 @@ const Main = () => {
             </div>
             <div className="flex gap-8 justify-center text-slate-900 font-bold  relative z-10">
               <a
-                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-sm hover:scale-110 grid items-center"
+                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-md hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://github.com/jguayanes/EntregableReact3"
               >
                 GitHub
               </a>
               <a
-                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center"
+                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-md dark:hover:text-white hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://illustrious-jalebi-996d99.netlify.app/"
               >
@@ -139,14 +139,14 @@ const Main = () => {
             </div>
             <div className="flex gap-8 justify-center text-slate-900 font-bold relative z-10">
               <a
-                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-sm hover:scale-110 grid items-center"
+                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-md hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://github.com/jguayanes/EntregableReact4"
               >
                 GitHub
               </a>
               <a
-                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm scale-110 grid items-center"
+                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-md dark:hover:text-white scale-110 grid items-center"
                 target="_blank"
                 href="https://create-your-user.netlify.app/"
               >
@@ -160,14 +160,14 @@ const Main = () => {
             </div>
             <div className="flex gap-8 justify-center text-slate-900 font-bold relative z-10">
               <a
-                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-sm hover:scale-110 grid items-center"
+                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-md hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://github.com/jguayanes/EntregableReact2"
               >
                 GitHub
               </a>
               <a
-                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center"
+                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-md dark:hover:text-white hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://searthechwheater.netlify.app/"
               >
@@ -185,14 +185,14 @@ const Main = () => {
             </div>
             <div className="flex gap-8 justify-center text-slate-900 font-bold relative z-10">
               <a
-                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-sm hover:scale-110 grid items-center"
+                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-md hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://github.com/jguayanes/Entregable5-pokedex"
               >
                 GitHub
               </a>
               <a
-                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center"
+                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-md dark:hover:text-white hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://searchyourpokemon.netlify.app/"
               >
@@ -206,14 +206,14 @@ const Main = () => {
             </div>
             <div className="flex gap-8 justify-center text-slate-900 font-bold relative z-10">
               <a
-                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-sm hover:scale-110 grid items-center"
+                className="w-20 h-8 cursor-pointer text-center shadow-md bg-[#b9b4c7] hover:bg-[#352F44] hover:text-white rounded-md hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://github.com/jguayanes/phraseChange"
               >
                 GitHub
               </a>
               <a
-                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-sm hover:scale-110 grid items-center"
+                className="bg-[#B9B4C7] w-20 h-8 cursor-pointer text-center shadow-md hover:bg-[#352F44] rounded-md dark:hover:text-white hover:scale-110 grid items-center"
                 target="_blank"
                 href="https://rad-lokum-033165.netlify.app/"
               >
