@@ -29,7 +29,7 @@ function App() {
         <BackgroundParticles />
         <Header />
         <Main />
-        <Footer />
+        <Footer changeLang={changeLang}/>
       </section>
     </IntlProvider>
   );

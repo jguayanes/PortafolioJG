@@ -15,7 +15,7 @@ const Header = () => {
           <p className="text-[19px] sm:text-[30px] sm:w-[600px] text-center sm:relative sm:z-10 font-bold hover:scale-110">
             <FormattedMessage
               id="app.p"
-              defaultMessage="I'm probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I'm your guy."
+              defaultMessage="Passionate about programming, I define myself as a person eager to learn and a great leader of multidisciplinary teams. I have worked on several projects focused on web design."
             />
           </p>
         </div>

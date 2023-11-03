@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = ({ changeLang }) => {
   return (
     <article className="grid p-4 sticky bottom-[55%] border-transparent  w-[40px] ">
       <div className="">
@@ -21,6 +21,17 @@ const Footer = () => {
             <a target="_blank" href="https://github.com/jguayanes">
               <img src="/github.png" alt="" />
             </a>
+          </li>
+          <li>
+            {changeLang ? (
+              <a download={"CV English"} href="/public/CV estetico ingles.pdf">
+                <img src="/cv.png" alt="" />
+              </a>
+            ) : (
+              <a download={"CV Español"} href="/public/CV ESTETICO.pdf">
+                <img src="/cv.png" alt="" />
+              </a>
+            )}
           </li>
         </ul>
       </div>
