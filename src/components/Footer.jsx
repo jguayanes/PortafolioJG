@@ -1,3 +1,5 @@
+
+
 const Footer = ({ changeLang }) => {
   return (
     <article className="grid p-4 sticky bottom-[55%] border-transparent  w-[40px] ">
@@ -25,7 +27,7 @@ const Footer = ({ changeLang }) => {
         
             {changeLang ? (
               <li>
-              <a download={"CVEnglish.pdf"} href="/public/CVenglish.pdf">
+              <a download={"CVEnglish"} href='/public/CVingles.jpg'>
                 <img src="/cv.png" alt="" />
               </a>
               </li>
