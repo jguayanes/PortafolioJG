@@ -24,10 +24,9 @@ const Footer = ({ changeLang }) => {
               <img src="/github.png" alt="" />
             </a>
           </li>
-        
             {changeLang ? (
               <li>
-              <a download={'CVEnglish'} href='/public/CVenglish.pdf'>
+              <a download={'CVEnglish'} href='/public/CVenglish.pdf' >
                 <img src="/cv.png" alt="" />
               </a>
               </li>
