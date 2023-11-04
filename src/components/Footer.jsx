@@ -27,14 +27,14 @@ const Footer = ({ changeLang }) => {
         
             {changeLang ? (
               <li>
-              <a download={"CVEnglish"} href='/src/assets/CVenglish.pdf'>
+              <a download={'CVEnglish'} href='/public/CVenglish.pdf'>
                 <img src="/cv.png" alt="" />
               </a>
               </li>
             
             ) : (
               <li>
-              <a download={"CVEspañol.pdf"} href="/src/assets/CVespañol.pdf">
+              <a download={'CVEspañol'} href="/public/CVespañol.pdf">
                 <img src="/cv.png" alt="" />
               </a>
               </li>
