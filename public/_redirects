@@ -1,1 +1,2 @@
-/public/*.pdf /:splat 200!
+/ruta/al/archivo.pdf /ruta/al/archivo.pdf 200
+
