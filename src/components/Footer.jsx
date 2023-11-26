@@ -15,11 +15,6 @@ const Footer = ({ changeLang }) => {
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://mail.google.com/mail/u/1/#inbox">
-              <img src="/email1.png" alt="" />
-            </a>
-          </li>
-          <li>
             <a target="_blank" href="https://github.com/jguayanes">
               <img src="/github.png" alt="" />
             </a>
